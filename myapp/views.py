@@ -4,11 +4,12 @@ from django.shortcuts import render
 # myapp/views.py
 
 def home(request):
-    return render(request, 'index.html')
+    return render(request, 'home.html')
 
 def login(request):
     return render(request, 'login.html')
 
 def dashboard(request):
     return render(request, 'dash.html')
+
 
