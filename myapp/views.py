@@ -12,4 +12,5 @@ def login(request):
 def dashboard(request):
     return render(request, 'dash.html')
 
-
+def submitForm(request):
+    return render(request, 'form.html')
