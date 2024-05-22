@@ -25,6 +25,9 @@ urlpatterns = [
     path('login/', views.login, name = 'login'),
     path('dashboard/', views.dashboard, name = 'dashboard'),
     path('submit-forms/', views.submitForm, name = 'submitForm'),
-    
+    path('validate/', views.certificate_validation, name='certificate_validation'),
+    path('candidate-data/', views.candidate_Data, name = 'candidateData'),
+    path('candidate-list/', views.candidate_list, name = 'candidatelist'),
+    path('invalid/', views.invalid, name = 'invalidForm')
 ]
 
